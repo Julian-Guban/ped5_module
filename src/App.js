@@ -9,7 +9,6 @@ function App() {
         <Routes>
           <Route index element={<Index/>}/>
           <Route path='/' element={<Index/>}>
-            
           </Route>
         </Routes>
       </BrowserRouter>
