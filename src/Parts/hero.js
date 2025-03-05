@@ -14,6 +14,7 @@ function hero() {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
+        marginTop:"50px"
       }}
     >
       <div
