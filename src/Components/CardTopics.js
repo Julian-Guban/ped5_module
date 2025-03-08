@@ -1,7 +1,7 @@
 import React from "react";
 
 // function CardTopics({ title, num, progress }) {
-function CardTopics({ title, num }) {
+function CardTopics({ title, num, link }) {
   return (
     <div className="card">
       <h1 style={{ color: "#E7A117", padding: "15px" }}> CHAPTER {num}: </h1>
@@ -16,7 +16,7 @@ function CardTopics({ title, num }) {
             borderRadius: "50px",
           }}
         />
-        <a className="card-btn" href="/">
+        <a className="card-btn" href={link}>
           View <span className="chop"> Chapter</span>
         </a>
       </div>

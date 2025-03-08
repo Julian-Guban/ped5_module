@@ -1,17 +1,24 @@
-import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from './Pages/Index';
+import "./App.css";
+import Hero from "./Parts/hero";
+import Overview from "./Parts/overview";
+import About from "./Parts/about";
+import Topics from "./Parts/topics";
+import Footer from "./Parts/footer";
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route index element={<Index/>}/>
-          <Route path='/' element={<Index/>}>
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <header>
+        <Hero />
+      </header>
+      <main>
+        <Overview />
+        <About />
+        <Topics />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
