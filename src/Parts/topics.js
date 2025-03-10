@@ -6,7 +6,7 @@ function topics() {
   return (
     <div className="full-width flex-center">
       <div className="cabinet">
-       <CardTopics title={"Title"} num={1} link={"https://chagroupp3.vercel.app"}/>
+       <CardTopics title={"Title"} num={1} link={"https://groupp3.vercel.app"}/>
        <CardTopics title={"Title"} num={2}/>
        <CardTopics title={"Title"} num={3}/>
        <CardTopics title={"Title"} num={4} link={"https://chapter4-module.vercel.app/"}/>
