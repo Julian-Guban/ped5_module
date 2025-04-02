@@ -10,7 +10,7 @@ function topics() {
        <CardTopics title={"Title"} num={2}/>
        <CardTopics title={"Title"} num={3}/>
        <CardTopics title={"Title"} num={4} link={"https://chapter4-module.vercel.app/"}/>
-       <CardTopics title={"Title"} num={5}/>
+       <CardTopics title={"Title"} num={5} link={"https://chapter5-cyan.vercel.app/"}/>
       </div>
     </div>
   );
